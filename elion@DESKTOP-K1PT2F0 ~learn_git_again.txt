@@ -1,88 +1,4 @@
-Windows Subsystem for Linux is now available in the Microsoft Store!
-You can upgrade by running 'wsl.exe --update' or by visiting https://aka.ms/wslstorepage
-Installing WSL from the Microsoft Store will give you the latest WSL updates, faster.
-For more information please visit https://aka.ms/wslstoreinfo
-
-To run a command as administrator (user "root"), use "sudo <command>".
-See "man sudo_root" for details.
-
-Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 4.4.0-19041-Microsoft x86_64)
-
- * Documentation:  https://help.ubuntu.com
- * Management:     https://landscape.canonical.com
- * Support:        https://ubuntu.com/advantage
-
-This message is shown once a day. To disable it please create the
 elion@DESKTOP-K1PT2F0:~$
-elion@DESKTOP-K1PT2F0:~$ mkdir learn_git_again
-elion@DESKTOP-K1PT2F0:~$ cd learn_git_again
-elion@DESKTOP-K1PT2F0:~/learn_git_again$ touch third.txt
-elion@DESKTOP-K1PT2F0:~/learn_git_again$ git init
-hint: Using 'master' as the name for the initial branch. This default branch namehint: is subject to change. To configure the initial branch name to use in all
-hint: of your new repositories, which will suppress this warning, call:
-hint:
-hint:   git config --global init.defaultBranch <name>
-hint:
-hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
-hint: 'development'. The just-created branch can be renamed via this command:
-hint:
-hint:   git branch -m <name>
-Initialized empty Git repository in /home/elion/learn_git_again/.git/
-elion@DESKTOP-K1PT2F0:~/learn_git_again$ git add third.txt
-elion@DESKTOP-K1PT2F0:~/learn_git_again$ git commit -m "adding third.txt"
-Author identity unknown
-
-*** Please tell me who you are.
-
-Run
-
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
-
-to set your account's default identity.
-Omit --global to set the identity only in this repository.
-
-fatal: empty ident name (for <elion@DESKTOP-K1PT2F0.localdomain>) not allowed
-elion@DESKTOP-K1PT2F0:~/learn_git_again$ git log
-fatal: your current branch 'master' does not have any commits yet
-elion@DESKTOP-K1PT2F0:~/learn_git_again$ touch fourth.txt
-elion@DESKTOP-K1PT2F0:~/learn_git_again$ git add fourth.txt
-elion@DESKTOP-K1PT2F0:~/learn_git_again$ git commit -m "adding fourth.txt"
-Author identity unknown
-
-*** Please tell me who you are.
-
-Run
-
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
-
-to set your account's default identity.
-Omit --global to set the identity only in this repository.
-
-fatal: empty ident name (for <elion@DESKTOP-K1PT2F0.localdomain>) not allowed
-elion@DESKTOP-K1PT2F0:~/learn_git_again$ rm third.txt
-elion@DESKTOP-K1PT2F0:~/learn_git_again$ git add third.txt
-elion@DESKTOP-K1PT2F0:~/learn_git_again$ git commit -m "removing thrid.txt"
-Author identity unknown
-
-*** Please tell me who you are.
-
-Run
-
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
-
-to set your account's default identity.
-Omit --global to set the identity only in this repository.
-
-fatal: empty ident name (for <elion@DESKTOP-K1PT2F0.localdomain>) not allowed
-elion@DESKTOP-K1PT2F0:~/learn_git_again$ git log
-fatal: your current branch 'master' does not have any commits yet
-elion@DESKTOP-K1PT2F0:~/learn_git_again$ git config --global
-core.pager "cat"
-elion@DESKTOP-K1PT2F0:~/learn_git_again$ git config --global
-elion@DESKTOP-K1PT2F0:~/learn_git_again$ elion@DESKTOP-K1PT2F0:~$
 elion@DESKTOP-K1PT2F0:~$ mkdir learn_git_again
 elion@DESKTOP-K1PT2F0:~$ cd learn_git_again
 elion@DESKTOP-K1PT2F0:~/learn_git_again$ touch third.txt
@@ -114,4 +30,46 @@ Omit --global to set the identity only in this repository.
 
 fatal: empty ident name (for <elion@DESKTOP-K1PT2F0.localdomain>) not allowed
 elion@DESKTOP-K1PT2F0:~/learn_git_again$ git log
-elion@DESKTOP-K1PT2F0:~/learn_git_again$ git config --globals yet not allowednamehint: is subject to change. To configure th
+fatal: your current branch 'master' does not have any commits yet
+elion@DESKTOP-K1PT2F0:~/learn_git_again$ touch fourth.txt
+elion@DESKTOP-K1PT2F0:~/learn_git_again$ git add fourth.txt
+elion@DESKTOP-K1PT2F0:~/learn_git_again$ git commit -m "addin
+g fourth.txt"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <elion@DESKTOP-K1PT2F0.localdomain>) not allowed
+elion@DESKTOP-K1PT2F0:~/learn_git_again$ rm third.txt
+elion@DESKTOP-K1PT2F0:~/learn_git_again$ git add third.txt
+elion@DESKTOP-K1PT2F0:~/learn_git_again$ git commit -m "remov
+ing thrid.txt"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <elion@DESKTOP-K1PT2F0.localdomain>) not allowed
+elion@DESKTOP-K1PT2F0:~/learn_git_again$ git log
+fatal: your current branch 'master' does not have any commits yet
+elion@DESKTOP-K1PT2F0:~/learn_git_again$ git config --global
+core.pager "cat"
+elion@DESKTOP-K1PT2F0:~/learn_git_again$ git config --global
+--list
+core.pager=cat
+elion@DESKTOP-K1PT2F0:~/learn_git_again$
